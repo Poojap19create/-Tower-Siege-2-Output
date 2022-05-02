@@ -117,12 +117,13 @@ function draw() {
   slingShot.display();
   
 }
-function mouseDragged(){
-  Matter.Body.setPosition(this.polygon,{x:mouseX,y:mouseY});
-}
-function mouseReleased(){
-  slingShot.fly();
-}
+
+
+//Write code for mouseDragged and mouseReleased functions
+
+
+
+
 function keyPressed(){
   if(keyCode === 32){
       slingShot.attach(this.polygon);
